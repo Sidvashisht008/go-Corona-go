@@ -1,0 +1,168 @@
+#top-bar{
+  text-align: center;
+  background-color: #7bb4c3;
+}
+#myths{
+  background-color: #87dfd6;
+  margin: 0;
+}
+.symptoms-p, ol,p {
+  font-size: 1.5rem;
+}
+.logo{
+  width: 10%;
+}
+.glow{
+  position: relative;
+  top: 0.4rem;
+  font-family: 'Bad Script';
+  display: inline-block;
+  color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px #222831, 0 0 30px #222831, 0 0 40px #222831, 0 0 50px #222831, 0 0 60px #222831, 0 0 70px #222831;
+  }
+  to {
+    text-shadow: 0 0 20px #222831, 0 0 30px #222831, 0 0 40px #222831, 0 0 50px #222831, 0 0 60px #222831, 0 0 70px  #f7beff, 0 0 80px ;
+  }
+}
+.navbar{
+  background-color: #7bb4c3;
+  font-size: 1.7rem;
+}
+.abt-heading{
+  text-align: center;
+  font-size: 4rem;
+  color: #7bb4c3;
+  padding-bottom: 2%;
+}
+.abt{
+  margin-top: 5%;
+  padding: 2% 10% 2% 15%;
+}
+@media only screen and (max-width: 450px) {
+  .virus-png{
+    position: relative;
+    bottom: 7rem;
+  }
+}
+.virus{
+  text-align: center;
+}
+.virus-png{
+  width: 20rem;
+  margin-top: 30%;
+}
+.hand{
+  width: 20rem;
+  margin-top: 10%;
+}
+.symptoms-png{
+  width: 20rem;
+  margin-top: 10%;
+}
+hr{
+  display: block;
+  width: 5%;
+  border-style: dotted;
+  border-width: 10px;
+  color: #7bb4c3;
+  border-top: 0;
+}
+.hand-warning{
+  text-align: center;
+}
+ol{
+  list-style: inside;
+}
+.prevent{
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 26%;
+}
+.pad{
+  padding-left: 15rem;
+  padding-right: 15rem;
+  margin-bottom: 10rem;
+}
+.myth{
+  margin-top: 2rem;
+  color: white;
+  padding-top: 4rem;
+}
+.ques-gap{
+  margin-top:2rem;
+  font-size: 3rem;
+}
+.ans-gap{
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+.last{
+  padding-bottom: 5rem;
+}
+
+.card{
+  text-align: center;
+}
+.card-text{
+  font-size: 1.2rem;
+}
+.modal-backdrop {
+  background-color: #e7dfd5;
+}
+.modal-content{
+  background-color: #e7dfd5;
+}
+.modal-title{
+  font-size: 2.5rem;
+  color: #01a9b4;
+}
+.modal-body{
+  color: #888888;
+}
+.modal-foot{
+  color: #888888;
+  font-size: 0.9rem;
+}
+.yoga-links{
+  font-size: 1.5rem;
+  color: #222831;
+}
+.yoga-links:hover{
+  color: #7bb4c3;
+}
+.footer{
+  background-color: #7bb4c3;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 2rem 0 2rem 0;
+}
+.footer:hover{
+  background-color: #87dfd6;
+}
+a{
+  margin: 0 1.5rem 0 1.5rem;
+  font-size: 2rem;
+  color: black;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+.credits{
+  width: 20rem;
+  margin: auto;
+}
+.front{
+  position: absolute;
+  right: 3rem;
+}
+.Top{
+  font-size: 1.5rem;
+}
